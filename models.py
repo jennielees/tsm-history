@@ -4,7 +4,7 @@ from base import DB
 
 db = DB('sqlite:///champions.db')
 
-IMG_BASE = 'http://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/'
+IMG_BASE = 'https://ddragon.leagueoflegends.com/cdn/5.2.1/img/champion/'
 
 
 class Champion(db.Model):
